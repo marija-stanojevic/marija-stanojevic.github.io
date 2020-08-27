@@ -32,22 +32,221 @@
         <div id="content_header"></div>
     <div id="site_content">
       <div id="banner"></div>
-       <!-- <div id="sidebar_container">
-         <div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <h3>Links</h3>
-            <ul>
-              <li><a href="#text1">Title description, Sep 2, 2017</a></li>
-	    </ul>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-      </div> -->
       <div id="content_other">
 		  <h2>Eudaimonia 42</h2>
+
+
+		   <div>
+		    <button type="button" class="collapsible">[ICML 2020] Notes<div class="date">Fri, 2020-07-19 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tags: Research, ML</div></button>
+		   	<div class="collapsed">
+				
+			<b>Note</b>: This post is very subjective (based on my interests and knowledge) and not a full overview of ICML 2020<br/><br>
+		
+		<h4>Tips from older researchers:</h4>
+		<ul><li>Working on sets instead of lists: Predicting Choice with Set-Dependent Aggregation, attention (Yoshua)</li>
+		<li>Work on problem driven research, instead of algorithm/model driven research</li>
+		<li>What is the big problem you want to solve -> split into smaller problems -> split into tasks: choose a small part of task that is realistic and that may potentially advance the field and do that</li>
+		<li>It's important to start and finish things.</li>
+		<li>If something turns out to be a bad idea, wrap it up, write a report on it at least for yourself</li>
+		<li>Instead of focusing on advancing your career, you should focus on help your students to be the best they can be. If your students are advancing, you are advancing.</li>
+		<li>Plant a lot of "seeds of collaborations", not many of these will grow to be trees but the few that do can end up being very fruitful</li>
+		<li>Read papers only if you can understand what they are doing from the abstract and if abstract/introduction are novel enough.</li>
+		<li>If you have problem with mentees, schedule a meeting with mentee and ask them for self-evaluation. If they are aware of their issues, make plan for them to improve. If they don't do so, tell them it's not a good fit and they should try somewhere else.</li>
+	</ul>
+
+		<h4>Papers of interest:</h4>
+		<ul>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1417-Paper.pdf">Continuous domain adaptation, can be applied to medical and NLP domains</a></li>
+			<li><b>Contrastive Multi-View Representation Learning on Graphs</b>: in theory it should be applicable to knowledge graphs as well because we are looking at local regions by subsampling the graph. However, you'll need to replace the encoder with a relational GNN such as R-GCN.</li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1185-Paper.pdf">Self-supervision and MTL in GCN</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/5578-Paper.pdf">Time-Consistent Self-Supervision for Semi-Supervised Learning</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/613-Paper.pdf">Topological Autoencoders</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/2333-Paper.pdf">Negative Sampling in Semi-Supervised learning</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/3231-Paper.pdf">Safe Deep Semi-Supervised Learning for Unseen-Class Unlabeled Data</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/6017-Paper.pdf">Deep Molecular Programming: A Natural Implementation of Binary-Weight ReLU Neural Networks</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1125-Paper.pdf">Adaptive Adversarial Multi-task Representation Learning</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/758-Paper.pdf">Which Tasks Should Be Learned Together in Multi-task Learning?</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1559-Paper.pdf">Predicting Choice with Set-Dependent Aggregation</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/4081-Paper.pdf">Robust learning with the Hilbert-Schmidt independence criterion</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/4986-Paper.pdf">MetaFun: Meta-Learning with Iterative Functional Updates</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/2650-Paper.pdf">PowerNorm: Rethinking Batch Normalization in Transformers</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/4025-Paper.pdf">Differentiable Product Quantization for Learning Compact Embedding Layers</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/5706-Paper.pdf">Few-shot Relation Extraction via Bayesian Meta-learning on Task Graphs</a></li>
+			<li><a href="https://arxiv.org/abs/1906.05664">Calibration, Entropy Rates, and Memory in Language Models</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/6626-Paper.pdf">Train Big, Then Compress: Rethinking Model Size for Efficient Training and Inference of Transformers</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/6109-Paper.pdf">Abstraction Mechanisms Predict Generalization in Deep Neural Networks</a></li>
+			<li><a href="https://slideslive.com/38930901/invited-talk-2">Decoding the genome with AI</a></li>
+			<li><a href="https://slideslive.com/38930882/learning-to-continually-learn?ref=account-folder-55854-folders">Pillars and future of ML (introducing very cool new works - LLL workshop)</a></li>
+			<li><a href="https://slideslive.com/38930805/invited-talk-system-2-priors">System 2 priors (LLL workshop)</a></li>
+			<li><a href="https://slideslive.com/38930884/continual-learning-from-an-learning-perspective?ref=account-folder-55854-folders">continual learning from an learning perspective (LLL workshop)</a></li>
+			<li><a href="https://slideslive.com/38930885/learning-on-the-job-in-the-open-world?ref=account-folder-55854-folders">Learning on the Job in the Open World (LLL workshop)</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/287-Paper.pdf">Rigging the Lottery: Making All Tickets Winners; improvement on images (better accuracy, 8 times smaller size), but not on RNNs</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1698-Paper.pdf">performs attention between top-down and bottom-up information in seq models</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/3786-Paper.pdf">VAE with Riemannian Brownian motion priors</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1042-Paper.pdf">Perceptual Generative AE</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1042-Paper.pdf">Perceptual Generative AE</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/3022-Paper.pdf">Latent Bernoulli AE</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/4985-Paper.pdf">Bio-inspired Hashing for Unsupervised Similarity Search</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/4985-Paper.pdf">Learning Autoencoders with Relational Regularization</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/138-Paper.pdf">Learning De-biased Representations with Biased Representations; a good practical way to solve problems from Leon Buttou paper</a></li>
+			<li><a href="https://proceedings.icml.cc/static/paper_files/icml/2020/5691-Paper.pdf">Instead of warmup with transformer, use different initialization to get better results</a></li>
+		</ul>
+
+		<h4>Interesting people</h4>
+
+		<ul><li>Kevin Yang: currently in Microsoft, works on protein representation</li>
+		<li>Michaela van der Schaar - doing AutoML of traditional models on different medical problems</li>
+		<li>Kaveh Hassani: Autodesk Toronto</li>
+		<li>Jeff Clune: Research Team Lead at OpenAI, Associate Professor at University of British Columbia</li></ul>
+		   </div>
+		  </div>
+		  <br/>
+
+
+
+
+		   <div>
+		    <button type="button" class="collapsible">[ACL 2020] Notes<div class="date">Fri, 2020-07-08 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tags: Research, ML</div></button>
+		   	<div class="collapsed">
+				
+			<b>Note</b>: This post is very subjective (based on my interests and knowledge) and not a full overview of ACL 2020<br/><br>
+		
+		<h4>Interesting people (selection made based on their research or interactions during the event):</h4>
+		<ul><li>Colin Cherry, Google Montreal</li>
+			<li>Jasmin Bastings, Google Berlin</li>
+			<li>Sebastian Gehrmann, Google Boston</li>
+			<li>Ramakanth Kavuluru (BioNLP)</li>
+			<li>Inkit Padhi, IBM (unsupervised text style transfer)</li>
+			<li>Graeme Hirst, UoT (distinguished service award)</li>
+			<li>Lucie Flek (social media analysis)</li>
+			<li>Josh Tenenbaum (MIT - language parsing and grounding for robot)</li>
+		</ul>
+
+		<h4>Interesting papers (text emphasis the main idea of the paper):</h4>
+		<ul><li><a href="<b>Note</b>: Text is US-biased, but many answers are internationally applicable. It was originally posted">Compresses knowledge graph using GNN</a></li>
+			<li><a href="https://www.aclweb.org/anthology/2020.acl-main.475.pdf">Finds ideal points to classify texts in unsupervised way</a></li>
+			<li><a href="https://www.aclweb.org/anthology/2020.acl-main.475.pdf">Gated mixture of smaller number of heads works better than more heads</a></li>
+			<li><a href="https://www.aclweb.org/anthology/2020.acl-main.270.pdf">Reordering transformers sublayers increase accuracy</a></li>
+			<li><a href="https://www.aclweb.org/anthology/C16-1111.pdf">Broad Twitter Dataset</a></li>
+			<li><a href="https://www.aclweb.org/anthology/2020.acl-main.51.pdf">Finds words which meaning changes across the corpora</a></li>
+			<li><a href="https://www.aclweb.org/anthology/2020.acl-main.263.pdf">Creates a model that is more robust to a non-English speaking texts. Left it because it shows that even Bert loses 30% or accuracy with such text.</a></li>
+			<li><a href="https://arxiv.org/pdf/2006.04148.pdf">Medical textual databse that allows extensive search and extraction for various stuff</a></li>
+			<li><a href="https://openreview.net/forum?id=1A83-27cVDW">Understanding COVID-19 text.</a></li>
+			<li><a href="https://arxiv.org/abs/2005.07683">Prunes links that don't change during the fine-tuning</a></li>
+			<li><a href="https://slideslive.com/38929784/compressing-bert-studying-the-effects-of-weight-pruning-on-transfer-learning">Studies ways to prune BERT</a></li>
+			<li><a href="https://www.aclweb.org/anthology/2020.acl-main.207.pdf">Document-level Representation Learning using Citation-informed Transformers</a></li>
+			<li><a href="https://www.aclweb.org/anthology/2020.acl-main.423.pdf">Learns representation of different words senses using BERT</a></li>
+			<li><a href="https://www.aclweb.org/anthology/2020.acl-main.255.pdf">Incorporates knowledge graph for WordSense</a></li>
+				<li><a href="">Capsule networks for multi-label classification</a></li>
+				<li><a href="https://virtual.acl2020.org/paper_main.238.html">KG embedding compression</a></li>
+				<li><a href="https://www.aclweb.org/anthology/2020.acl-main.195.pdf">MobileBERT: has 5 times less parameters and same accuracy on GLUE</a></li>
+				<li><a href="https://www.aclweb.org/anthology/2020.acl-main.194.pdf">Combines labeled and unlabeled data to learn from small supervised datasets</a></li>
+				<li><a href="https://www.aclweb.org/anthology/2020.acl-main.726.pdf">Uses feature projection before the embedding and get 1-4% improvement even with BERT</a></li>
+				<li><a href="https://www.aclweb.org/anthology/2020.acl-main.437.pdf">Uses discrete embeddings</a></li>
+				<li><a href="https://www.aclweb.org/anthology/2020.acl-main.474.pdf">Text and causal inference, many useful ideas</a></li>
+				<li><a href="https://www.aclweb.org/anthology/2020.acl-demos.38.pdf">Torch struct, implementation of more complex and structured losses in pytorch</a></li>
+				<li><a href="https://www.aclweb.org/anthology/2020.acl-main.463.pdf">Very interesting arguments on how current NLP models are not even close to real language understanding</a></li>
+				<li><a href="https://www.aclweb.org/anthology/2020.acl-main.442.pdf">Proposes simple Checklist of tests to find how well SOTA are doing on them</a></li>
+		</ul>
+
+			<h4>Mentoring session: Long-term career planning + Becoming a research leader: building your professional identity</h4>
+			<ul><li>Follow your interests and what you are good at, despite the trends</li>
+			<li>Do something that you’d own and you’d be proud of</li>
+			<li>Make sure that it’s doable within your time-frame</li>
+			<li>Going into uncharted territory might give you bigger impact: maybe there is a low-hanging fruit there</li>
+			<li>Include your own personality</li>
+			<li>Add some non-research (or at least non-self promotion) related posts to tweet, so you get more attention</li>
+			<li>Make sure to have aside project for fun/break</li>
+		</ul>
+		   </div>
+		  </div>
+		  <br/>
+		  
+		  
+		        <div>
+		         <button type="button" class="collapsible">[ICLR 2020] Tips for prospective and early-stage PhD students<div class="date">Sun, 2020-04-30 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tags: ML, Education</div></button>
+		        	<div class="collapsed">
+		  			<br/>
+				 <p>Contributors (sorted by first name): Akari Asai, Carlos Miranda, Chiara Mugnai, Claas Voelcker, Divyansh Kaushik, Fairoza Amira Binti Hamzah, Jade Abbott, Jaydeep Borkar, Kalpesh Krishna, Karmanya Aggarwal, Makbule Gulcin Ozsoy, Marija Stanojevic, Martha White, Michael McCabe, Moritz Schneider, Rajarshi Das, Sabrina J. Mielke, Sagar Devkate, Tornike Tsereteli</p>
+
+				 <b>Note</b>: Text is US-biased, but many answers are internationally applicable. It was originally posted <a href="https://twitter.com/mstanojevic118/status/1255987903408287745">here</a>.
+
+				 <p><h4>How to get started in ML/DL?</h4><br/>
+				 Useful tips/materials for learning ML related programming and basic deep learning knowledge:
+				 <ul>
+				 <li>Books: <a href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646">"Hands On Machine Learning with Scikit Learn Keras and TensorFlow"</a>,  <a href="https://www.deeplearningbook.org/">"Deep Learning"</a> and <a href="https://mml-book.github.io/">"Mathematics for Machine Learning"</a></li>
+				 <li>Watching <a href="https://www.fast.ai/">fast.ai</a> courses (learn fast.ai library and pytorch).
+				 To learn about optimization, <a href="https://www.youtube.com/watch?v=McLq1hEq3UY&list=PL3940DD956CDF0622">Stephen Boyd's course on Convex Optimization.</a></li>
+				 <li>Reading published code helps to see what the actual contribution of the paper was and you can map that back to the mathematical explanation in the paper. Then, the next time you see that mathematical explanation, you know exactly what it means computationally.</li>
+				 <li>For programming skills in DL, you can follow Francois Chollet (@fchollet) on twitter (he usually posts some of the best tutorials on TF+Keras) or deep dive in github repos (e.g. TF object detection API, HuggingFace transformers...), you will find lots of best practices! Just study them, understand why they are done as they are and practice.</li>
+				 <li>Reimplement papers on your own.</li>
+				 <li>Attend ML schools, such as <a href="https://www.clsp.jhu.edu/workshops/20-workshop/">JSALT</a> or those mentioned <a href="https://github.com/sshkhr/awesome-mlss">here</a>.</li>
+				 <li>It would take time to go through those materials, but don't give up. If possible set aside two-three weeks to go through a course / book in detail without distractions. Otherwise, set aside a specific time of the day when you'll do this.</li>
+				 <li>Auditing or watching youtube videos of ML/DL courses from some universities is also great way to learn (e.g., <a href="http://web.stanford.edu/class/cs224n/">Deep Learning for NLP</a>, <a href="http://cs231n.stanford.edu/">Deep learning for Computer Vision)</a></li></ul>
+				 
+				 <h4>How to keep track of novel research?</h4>
+				 <ul><li>Once a month, check <a href="http://arxiv-sanity.com/">arxiv-sanity.com</a> for the last month, "top recent", "top hype" and "recommended" tabs. Scan papers titles and abstracts and based on that download papers for further reading (~15).</li>
+				 <li>Read fully just the most interesting of those (~5) and get the most important ideas of the others.</li>
+				 <li>Listen to the talks from ~ 5 high quality workshops/conferences per year, within the area of interest to gain new ideas. You can search for those on youtube (Institute for Advanced Studies channel, for example), <a href="https://slideslive.com/">slideslive.com</a>, <a href="http://videolectures.net/">videolectures.net</a>. If possible, try to attend some of them live.</li>
+				 <li>Attend highly relevant/quality talks in your area to get to know relevant people.</li>
+				 <li>Subscribe to relevant blogs' weekly/monthly updates. Pick blogs based on their quality and my interests. Many companies or big ML research groups have blogs. Examples of blogs/newsletters to follow: <a href="http://www.offconvex.org/">on ML theory</a>, also <a href="https://www.argmin.net/">ML theory (no new posts)</a>, <a href-"https://www.inference.vc/">probability</a>, <a href="https://lilianweng.github.io/lil-log/">broad and beginner friendly</a>, <a href="https://francisbach.com/">on ML theory</a>, <a href="https://ruder.io/">on NLP</a>, <a href="https://www.deeplearning.ai/thebatch/?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&utm_content=87167912&_hsenc=p2ANqtz-8HmU54Z9SieuRhxRzi8oTXOuv4Y5GHcVF-z2SfmoZMdahjOv3s6E9qjp22OOovZwMXDhmDNZAOZk3cMevKdZtDxslLSQ&_hsmi=87167912">on deep learning</a>, <a href="https://app.cognitionx.com/newsletter-subscribe/">broad machine learning with industry-related updates</a>, and <a href="https://app.cognitionx.com/newsletter-subscribe/">BAIR research</a>. If there is no subscription to newsletters, you can subscribe to RSS feeds or follow the authors on twitter.</li>
+				 <li>Talk to colleagues and ask them what they currently think is important.</li>
+				 <li>Following some twitter bot posting the new Arxiv papers daily might be helpful -- you don't need to read all of them, but if the titles look relevant to your current project or sounds interesting, just click the link to the Arxiv page and skim the abstract.</li>
+				 <li>Keep a detailed multi-doc journal of ideas and research you've read and use a paper organizing software. Zotero/Mendeley/roam-research/Google docs/Microsoft OneNote Folders/Notion/Trello are some of the software you can look into. Notion has a bit of a learning curve which makes it non ideal but it's the best thing I've found that syncs to multiple machines. Trello allows you to set up a board with a list of categories (e.g. research topics, resources), under which cards represent subcategories (e.g. tools, datasets, tutorials). You can also create a GitHub repo with a readme with different subsections of the research topics I'm interested in (can put papers, blog-posts, libraries and tools related to the research, other resources, etc under the topics). </li></ul>
+				 
+				 <h4>How to apply to PhD?</h4>
+				 <ul></li>Check out blogs: <a href="https://bair.berkeley.edu/blog/subscribe/">Machine Learning PhD applications</a>, <a href="https://timdettmers.com/2018/11/26/phd-applications/">How to Pick Your Grad School</a> and <a href="https://timdettmers.com/2020/03/10/how-to-pick-your-grad-school/">Student Perspectives on Applying to NLP PhD programs</a></li>
+				<li>Find/meet/contact a potential advisor before the application period. Read papers in areas you are interested in and look into websites of those researchers. If they don't have open positions announced, contact them by email (except if it's otherwise mentioned on their website). Conferences are a good way to meet potential advisors.</li>
+				 <li>Try contacting advisors as early as you've made up your mind about grad school / research direction.</li>
+				 <li>Good letters of recommendations from someone already in the field is the best way to be noticed during applications. Recommendations coming from academia are very important, while those coming from industry are rarely taken into account, unless the recommender has a good reputation in the research community and has Ph.D. in the field. Recommendations from senior PhD students or even postdocs are not very valuable.</li>
+				 <li>You should consider applying for a PhD if you think you have a good research profile (e.g., having worked on research projects during undergrad, did research internships / attended research intensive summer programs like JHU's JSALT). If you don't have research experience and want to gain some before applying, applying to master's might be more appropriate. It may happen that professors expect more from people who finished masters.</li>
+				 <li>In recent years PhD admission in CS/ML got more competitive in general, so people with previous research experience (and published papers) seem to have better chances.</li>
+				 <li>Other ways of getting research experience are: applying for a semester of undergraduate research assistant, fellowship or course. Working as a technician / software engineer within a research lab.</li>
+				 <li>Residency programs offered by company research (<a href="https://blog.nelsonliu.me/2019/10/24/student-perspectives-on-applying-to-nlp-phd-programs/">see list</a>) are also great opportunities, although the application process is known to be competitive.</li>
+				 <li><b>How do you think Covid-19 will affect next year's application rates and acceptances?</b> It's still unknown, and depends on the institution, money flow, and federal imigration regulations.</li></ul>
+				 
+				 <h4>How to find and pick a PhD advisor?</h4>
+				 <ul><li><b>How to find a PhD advisor?</b> Find a topic that you are interested in researching. Look into papers in that area and who authored them (which groups are active in that field). Out of those, select groups within universities/locations in which you can imagine living for the next five years. Look into websites of those groups, their departments or twitter accounts of the professors as they might have publicly available calls for PhD students. If not, try to contact professors or students from those groups to ask if there are available positions (attach your resume).</li>
+				<li>Try to meet or get to know potential advisors as much as possible before applying to Phd. Contact his/her students / postdocs with questions you have.</li> 
+				 <li>It's important that your advisor's working style fits you well.</li>
+				 <li><b>Questions to ask prospective advisor</b>: How much time he/she spends with students? What's his/her working style? What kind of and how much work has her/him published in the last few years? How stable would your financing be? How many other faculty are in the department who work on your area of interest? What is their advising style? What traits do they prioritise? What do they expect from their PhD student? How much non-research work would you need to do (lab maintenance, meetings,...)?</li>
+				 <li>If you are interested in doing internships, ask: Are his/her current students doing an internship and at what places? </li></ul>
+				 <h4>Going to graduate studies (getting into research) after working in industry</h4>
+				 <ul><li>What will change: you'll get less money, but more time and freedom.</li>
+				 <li>Many of the current Ph.D. students are satisfied with the current payments.</li>
+				 <li>You'll probably need to move. Think if that is feasible in your situation.</li>
+				 <li><b>Should you be moving from industry to academia if they are interested in a specific research topic?</b> Depends on the topic and your background. If you want to transfer from physics into ML research and you know how to code, there is a way to do it without going to academia, but you need to choose an appropriate employer. In many other cases that's not possible. Try applying for a role that you aspire to. If you get invited to interviews and can do pretty well in them, you are good. Otherwise, you'll see what's missing and how much more work you need (if you need to go back to school). </li>
+				 <li><b>When to give up industry for academia?</b> If you see yourself working on a research topic for the next five+ years and you extremely value time and freedom to pursue your research aspirations, academia is probably a good choice. If you want to get into ML because it's popular and you heard it's cool, you should start by listening to a few online courses in your free time and start building some small stuff. Then, you can re-evaluate your aspirations.</li></ul>
+				 
+				 <h4>Things to keep in mind in order to make the most of your PhD</h4>
+				 <ul><li><b>Are you solely responsible for generating new research ideas? Or do advisors play a significant role in it? </b> That's going to depend a lot on your advisor, the size of your research group, and how well your research interests line up with your advisor's goals. It's almost a given that your advisor will have some project in mind that they think you'd be a good fit for when they accept you. But if that doesn't line up with your career goals, then you might find yourself needing to be significantly more independent (though your advisor should still be a good resource to help refine your ideas). Talk about this with your potential advisor during the application process - that's really the only way you'll know what their expectations are. I also think it depends on the advisors' advising style. Talking to his/her students to ask the advising style would help.</li>
+				 <li><b>What is one advice you wish you had gotten before starting your PhD?</b> Don't forget to take care of yourself, including enough sleep, basic exercise, good quality food and asking for mental health counselling, if needed.  Expect to have good and bad periods. Procrastination is part of most PhDs. Find ways that help you shorten the procrastination periods (exercise, short trips, gathering with friends, more relaxed/tight schedule...) </li>
+				<li><b> What is the role that the groups you are in (excluding the prof) have played in your learning?</b> If people work on a related topic, you can get help from them or actively discuss with them to brainstorm. If people are working on different topics but are open, you can still brainstorm with them and get some inspiration from different fields. </li>
+				 <li><b>What is the balance between doing everything yourself vs taking help and support from your group? </b> It's good to be in a collaborative group, where people help each other (especially before the deadline). Too competitive environment is not really good for mental health. On the other hand, doing everything by yourself is good to learn to be more independent. </li>
+				 <li><b>Is it common to change a PhD program after spending a year or two?</b> It is not common, but it happens for different reasons. Give your best to pick the suitable university, program, advisor and research topic, so you don't need to change.</li>
+				 <li><b>What is the procedure to transfer to another program? </b>Many schools don't have this option, so you might need to start a PhD program from the beginning. If you want to transfer, try doing it as soon as possible. Some schools will allow credit transfer for courses you've taken. When it comes to applying to a new school, the process is the same as for the freshmen PhD. Therefore, try looking first into transfer options within the same university.</li>
+				 <li><b>What are tips to organize, optimize and make one's research project faster? How can I shave off time by better preparing?</b> I learnt the hard way that I didn't need to write a lot of code since it was available online as a functionality in a well established library like scikit-learn etc or someone had a good github repo with the same. So checking online can save some time. Also writing modular code that can be reused, as a library for yourself can be very helpful. A lot of non-CS students do not use Git as often, I think they are missing out on a lot. Documenting your experimental setup, results and thoughts about future experiments/ideas can be very helpful, specially when working in a team.</li>
+				 <li><b>What's the best part about conferences? How do you make the most of them? Tips and tricks to share?</b> Don't go to talks, but chat with everyone at posters. The most important track is the hallway track. You will miss out on some things and that's okay. Sneak out and enjoy the city. but go to posters and ask questions. Hang out with cool people (like us) and talk to them. </li>
+				 <li><b>How useful/important is it to have Academic Twitter?</b> As many good researchers are active on twitter, having it would help you in many ways. You will get many novel ideas/events/papers information earlier. Also, you will grow your network and promote your work easier. That being said, try not to become addicted to it. Also, they often advertise their work soon after they post it on Arxiv, so you will not overlook it if you follow them on Twitter. </li>
+				 <li>Put attention into writing and presentation skills as it would influence your research path. A useful <a href="https://www.coursera.org/learn/sciwrite">writing course</a> is available on coursera. Also, look into <a href="https://www.coursera.org/learn/sciwrite">this article</a> and <a href="https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/">this talk</a>. </li>
+				<li><b>How to manage time and what to prioritize?</b> Look into <a href="https://www.youtube.com/watch?v=oSVP1J4Mx_U&t=2476s">Devi Parikh's blog</a> for advice. </li></ul>
+				<h4> Finding industry position after ML finishing master/PhD </h4>
+				<ul><li> If you want to go to industry, internships are very important, so try doing at least one. </li>
+				 <li>Leetcode helps a lot, but your GitHub portfolio helps more than that in some cases. Industry doesn't look at your publications a lot (except for research scientist positions). Instead, they will rather ask how to turn your publications into productions. </li>
+				 <li> In Silicon Valey and similar ecumens, more often than not, the initial rounds of interviews are organized by software engineers, so leetcode problems play a major role.</li>
+				 <li>Open source contributions are valuable.</li></ul>
+
+
+				 See also <a href="https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd">Grad Resources blog</a> with many other useful details.
+		        </div>
+		       </div>
+		  	 <br/>
+		  
+		  
+		  
+		  
 		  <div>	
-		   <button type="button" class="collapsible">TED videos that inspired me<div class="date">Thu, 2019-12-12 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tags: Education, Science, Technology</div></button>
+		   <button type="button" class="collapsible">TED videos that inspired me<div class="date">Thu, 2020-04-10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tags: Education, Science, Technology</div></button>
 		   <div class="collapsed">
 			 <h5></h5>
 		     <p>I am in love with science and technology and TED talks on those topics are especially inspiring. This is my selection of the best TED talks (those I'd like to listen to again). They also include topics, such as education, self-improvement and more. Have in mind that videos are watched and selected in a year when they are published. Some of the older once might not be as relevant anymore.</p>
@@ -69,6 +268,15 @@
 </ul>
 <li><b>Technology</b></li>
 <ul>
+<li><a href="https://www.ted.com/talks/christopher_bahl_a_new_type_of_medicine_custom_made_with_tiny_proteins#t-17657">Christopher Bahl: A new type of medicine, custom-made with tiny proteins (2019)</a></li>	
+<li><a href="https://www.ted.com/talks/bjarke_ingels_an_architect_s_guide_to_living_on_mars#t-193472">Bjarke Ingels: An architect's guide to living on Mars (2019)</a></li>
+<li><a href="https://www.ted.com/talks/michael_s_a_graziano_how_close_are_we_to_uploading_our_minds">Michael S.A. Graziano: How close are we to uploading our minds? (2019)</a></li>
+<li><a href="https://www.ted.com/talks/stuart_oda_are_indoor_vertical_farms_the_future_of_agriculture">Stuart Oda: Are indoor vertical farms the future of agriculture? (2019)</a></li>
+<li><a href="https://www.ted.com/talks/dan_reinstein_how_does_laser_eye_surgery_work#t-331311">Dan Reinstein: How does laser eye surgery work? (2019)</a></li>
+<li><a href="https://www.ted.com/talks/peter_beck_small_rockets_are_the_next_space_revolution#t-680259">Peter Beck: Small rockets are the next space revolution (2019)</a></li>
+<li><a href="https://www.ted.com/talks/suzanne_lee_why_biofabrication_is_the_next_industrial_revolution">Suzanne Lee: Why "biofabrication" is the next industrial revolution (2019)</a></li>	
+<li><a href="https://www.ted.com/talks/david_lindell_a_camera_that_can_see_around_corners#t-317161">David Lindell: A camera that can see around corners (2019)</a></li>	
+<li><a href="https://www.ted.com/talks/matt_porter_and_margaret_hamilton_nasa_s_first_software_engineer_margaret_hamilton">Matt Porter and Margaret Hamilton: NASA's first software engineer: Margaret Hamilton (2020)</a></li>	
 <li><a href="http://www.ted.com/talks/dave_debronkart_meet_e_patient_dave">Travis Kalanick: Uber's plan to get more people into fewer cars (2016)</a></li>
 <li><a href="https://www.ted.com/talks/caleb_harper_this_computer_will_grow_your_food_in_the_future?language=en#t-101256">Caleb Harper: This computer will grow your food in the future (2016)</a></li>
 <li><a href="https://www.ted.com/talks/alex_kipman_the_dawn_of_the_age_of_holograms?language=en#t-14976">Alex Kipman: A futuristic vision of the age of holograms (2016)</a></li>
@@ -129,6 +337,16 @@
 </ul>
 <li><b>Science</b></li>
 <ul>
+<li><a href="https://www.ted.com/talks/taneka_jones_how_to_3d_print_human_tissue#t-68962">Taneka Jones: How to 3D print human tissue (2019)</a></li>		
+<li><a href="https://www.ted.com/talks/leila_pirhaji_the_medical_potential_of_ai_and_metabolites#t-66447">Leila Pirhaji: The medical potential of AI and metabolites (2019)</a></li>	
+<li><a href="https://www.ted.com/talks/laura_boykin_how_we_re_using_dna_tech_to_help_farmers_fight_crop_diseases#t-36629">Laura Boykin: How we're using DNA tech to help farmers fight crop diseases (2019)</a></li>
+<li><a href="https://www.ted.com/talks/sarah_kessans_the_scientific_now_of_space_food">Sarah Kessans: The scientific now of space food (2019)</a></li>
+<li><a href="https://www.ted.com/talks/tal_danino_hacking_bacteria_to_fight_cancer#t-17625">Tal Danino: Hacking bacteria to fight cancer (2019)</a></li>
+<li><a href="https://www.ted.com/talks/kelsey_johnson_the_problem_of_light_pollution_and_5_ridiculously_easy_ways_to_fix_it">Kelsey Johnson: The problem of light pollution -- and 5 ridiculously easy ways to fix it (2019)</a></li>	
+<li><a href="https://www.ted.com/talks/julian_burschka_could_a_breathalyzer_detect_cancer#t-2818">Julian Burschka: Could a breathalyzer detect cancer? (2020)</a></li>	
+<li><a href="https://www.ted.com/talks/gerry_wright_how_can_we_solve_the_antibiotic_resistance_crisis">Gerry Wright: How can we solve the antibiotic resistance crisis? (2020)</a></li>
+<li><a href="https://www.ted.com/talks/lisa_mosconi_how_menopause_affects_the_brain">Lisa Mosconi: How menopause affects the brain (2019)</a></li>
+<li><a href="https://www.ted.com/talks/kay_m_tye_what_investigating_neural_pathways_can_reveal_about_mental_health">Kay M. Tye: What investigating neural pathways can reveal about mental health (2019)</a></li>
 <li><a href="https://www.ted.com/talks/riccardo_sabatini_how_to_read_the_genome_and_build_a_human_being?language=en">Riccardo Sabatini: How to read the genome and build a human being (2016)</a></li>
 <li><a href="https://www.ted.com/talks/jennifer_kahn_gene_editing_can_now_change_an_entire_species_forever?language=en">Jennifer Kahn: Gene editing can now change an entire species -- forever (2016)</a></li>
 <li><a href="https://www.ted.com/talks/mariano_sigman_your_words_may_predict_your_future_mental_health?language=en">Mariano Sigman: Your words may predict your future mental health (2016)</a></li>
@@ -203,7 +421,7 @@
 <li><a href="https://www.ted.com/talks/sandrine_thuret_you_can_grow_new_brain_cells_here_s_how?language=en#t-5202">Sandrine Thuret: You can grow new brain cells. Here's how (2015)</a></li>
 <li><a href="https://www.ted.com/talks/harry_cliff_have_we_reached_the_end_of_physics?language=en">Harry Cliff: Have we reached the end of physics? (2015)</a></li>
 <li><a href="https://www.ted.com/talks/andras_forgacs_leather_and_meat_without_killing_animals?language=en">Andras Forgacs: Leather and meat without killing animals (2013)</a></li>
-<li><a href="https://www.ted.com/talks/jeff_iliff_one_more_reason_to_get_a_good_night_s_sleep?language=en#t-489">Jeff Iliff: One more reason to get a good night’s sleep (2014)</a></li>
+<li><a href="https://www.ted.com/talks/jeff_iliff_one_more_reason_to_get_a_good_night_s_sleep?language=en#t-489">Jeff Iliff: One more reason to get a good night's sleep (2014)</a></li>
 <li><a href="https://www.ted.com/talks/max_little_a_test_for_parkinson_s_with_a_phone_call">Max Little: A test for Parkinson's with a phone call (2012)</a></li>
 </ul>
 <li><b>Education</b></li>
@@ -220,6 +438,7 @@
 </ul>
 <li><b>Self-improvement</b></li>
 <ul>
+<li><a href="https://www.ted.com/talks/mike_cannon_brookes_how_you_can_use_impostor_syndrome_to_your_benefit">Mike Cannon-Brookes: How you can use impostor syndrome to your benefit (2017)</a></li>
 <li><a href="http://www.ted.com/talks/adam_galinsky_how_to_speak_up_for_yourself">Adam Galinsky: How to speak up for yourself (2016)</a></li>
 <li><a href="http://www.ted.com/talks/jim_hemerling_5_ways_to_lead_in_an_era_of_constant_change#t-136993">Jim Hemerling: 5 ways to lead in an era of constant change (2016)</a></li>
 <li><a href="https://www.ted.com/talks/eduardo_briceno_how_to_get_better_at_the_things_you_care_about#t-47965">Eduardo Briceño: How to get better at the things you care about (2016)</a></li>
@@ -348,10 +567,6 @@ Know the topic you want to advance in and google for experts in that topic. Most
       </div>
      </div>
 	 <br/>
-	 
-	 
-	 
-	 
    <div>
     <button type="button" class="collapsible">Fun place to visit when in London!<div class="date">Fri, 2017-02-10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tags: Travel, Fun</div></button>
    	<div class="collapsed">
@@ -359,12 +574,6 @@ Know the topic you want to advance in and google for experts in that topic. Most
    </div>
   </div>
   <br/>
-  
-  
-  
-  
-  
-  
    <div>
     <button type="button" class="collapsible">Why this blog?<div class="date">Sun, 2015-04-12 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tags: General</div></button>
    	<div class="collapsed">
