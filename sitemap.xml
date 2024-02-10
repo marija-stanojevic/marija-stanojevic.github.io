@@ -8,16 +8,16 @@
 
 
 <url>
-  <loc>https://mickypaganini.github.io/</loc>
-  <lastmod>2020-02-28T18:19:23+00:00</lastmod>
+  <loc>https://marija-stanojevic.github.io/</loc>
+  <lastmod>2024-02-10T18:19:23+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://mickypaganini.github.io/index.html</loc>
-  <lastmod>2020-02-28T18:19:23+00:00</lastmod>
+  <loc>https://marija-stanojevic.github.io/index.html</loc>
+  <lastmod>2024-02-10T18:19:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
+<!-- <url>
   <loc>https://mickypaganini.github.io/atlas_splash.html</loc>
   <lastmod>2020-02-28T18:19:23+00:00</lastmod>
   <priority>0.80</priority>
@@ -31,18 +31,18 @@
   <loc>https://mickypaganini.github.io/sciencecomms.html</loc>
   <lastmod>2020-02-28T18:19:23+00:00</lastmod>
   <priority>0.80</priority>
-</url>
+</url> -->
 <url>
-  <loc>https://mickypaganini.github.io/resume.pdf</loc>
-  <lastmod>2020-02-28T18:19:23+00:00</lastmod>
+  <loc>https://marija-stanojevic.github.io/files/pdf/Marija_Stanojevic_Resume.pdf</loc>
+  <lastmod>2024-02-10T18:19:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mickypaganini.github.io/MichelaPaganiniCV.pdf</loc>
-  <lastmod>2020-02-28T18:19:23+00:00</lastmod>
+  <loc>https://marija-stanojevic.github.io/files/pdf/Marija_Stanojevic_CV.pdf</loc>
+  <lastmod>2024-02-10T18:19:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
+<!-- <url>
   <loc>https://mickypaganini.github.io/pub.html</loc>
   <lastmod>2020-02-28T18:19:23+00:00</lastmod>
   <priority>0.80</priority>
@@ -51,7 +51,7 @@
   <loc>https://mickypaganini.github.io/HEPML_directory.html</loc>
   <lastmod>2020-02-28T18:19:23+00:00</lastmod>
   <priority>0.64</priority>
-</url>
+</url> -->
 
 
 </urlset>

@@ -1478,7 +1478,7 @@
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0 0;
 		text-transform: uppercase;
 	}
 
@@ -3803,7 +3803,7 @@
 
 				#main > header h2 {
 					font-size: 1.25em;
-					margin: 0 0 1em 0;
+					margin: 0 0 1 0;
 				}
 
 		}
