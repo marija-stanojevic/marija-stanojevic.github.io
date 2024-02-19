@@ -3965,6 +3965,37 @@
 		background-color: #1d242a;
 	}
 
+	/* Blog */
+	.blog-post {
+		margin-bottom: 20px;
+	}
+	
+	.post-header {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+	}
+	
+	.arrow {
+		transition: transform 0.3s ease;
+	}
+	
+	.post-title {
+		margin-left: 10px;
+		font-weight: bold;
+	}
+	
+	.post-info {
+		margin-left: 20px;
+		font-size: 0.8rem;
+		color: #666;
+	}
+	
+	.post-content {
+		display: none;
+		margin-top: 10px;
+		padding-left: 30px;
+	}
 
 
 
@@ -4036,7 +4067,7 @@
 	}
 
 	a:hover {
-    color: #FFFF99;
+    color: #1fd655;
 	}
 
 	a#overwhite:hover {color:hotpink}
@@ -4056,6 +4087,12 @@
 	
 	hr {
 		border: 0;
+		border-top: solid 1px #ddd;
+	}
+
+	.hrstyle {
+		margin-top: -10px;
+		margin-bottom: -20px;
 		border-top: solid 1px #ddd;
 	}
 	
